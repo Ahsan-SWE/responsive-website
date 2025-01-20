@@ -134,6 +134,8 @@ main > section {
 
 .fact-description {
   max-width: 540px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .fact-name {
@@ -183,10 +185,16 @@ main > section {
   .fact-container,
   .sponsor-companys {
     justify-items: center;
-    gap: 24px;
+    gap: 40px;
   }
   .our-feature {
     margin: 0 30px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  main > section {
+    margin-top: 30px;
   }
 }
 
