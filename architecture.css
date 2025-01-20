@@ -105,7 +105,7 @@ main > section {
 .text-primary {
   color: #ff900e;
 }
-.feature-title {
+.section-title {
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -113,6 +113,44 @@ main > section {
 #Quick-list {
   font-weight: 500;
 }
+
+/* fact related css */
+
+.fact-card {
+  border: 1px solid tomato;
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.fact-number {
+  font-weight: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-description {
+  max-width: 540px;
+}
+
+.fact-name {
+  color: var(--Dark-03, #727272);
+  font-family: 'Work Sans';
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* responsive media quirey */
 
 @media screen and (max-width: 576px) {
