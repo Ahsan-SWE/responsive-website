@@ -293,8 +293,8 @@ main > section {
     margin-top: 20px;
     margin-left: 20px;
   }
-  .fact-container {
+  /* .fact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
 }
